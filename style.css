@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,sans-serif;
+}
+body{
+    background-size: cover;
+}
+
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+.main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+ ul{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+ul li{
+    display: inline-block;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: hsl(299, 25%, 37%);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+   
+}
+ul li a:hover{
+    background-color:hsl(192, 63%, 45%);
+    color: #000000;
+}
+ul li.active a{
+    background-color:hsl(192, 63%, 45%);
+    color: #000000;
+}
+
+.h-txt{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+}
+.h-txt span{
+    letter-spacing: 5px;
+}
+.h-txt{
+    font-size: 2.5em;
+}
+.h-txt{
+    text-decoration: none;
+    background: indianred;
+    color:#fff;
+    padding: 5px 10px;
+    letter-spacing: 5px;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.title h1{
+    color: black;
+    font-size: 60px;
+}
+.button{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.btn{
+    border: 1px solid #0d0acf;
+    padding: 5px 10px;
+    color: #0d0acf;
+    text-decoration: none;
+    transition: 0.5 ease;
+}
+.btn:hover{
+    background-color:hsl(192, 63%, 45%);
+    color: #000000;
+}
